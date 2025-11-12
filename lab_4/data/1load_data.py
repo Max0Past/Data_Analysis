@@ -2,9 +2,6 @@ import pandas as pd
 from sklearn.datasets import make_moons, load_iris
 from pathlib import Path
 
-# --- 1. Визначення шляху до папки зі скриптом ---
-# __file__ — це змінна, що містить шлях до поточного файлу .py
-# .parent — це команда, щоб отримати папку, в якій лежить цей файл
 script_directory = Path(__file__).parent
 
 print(f"Скрипт запущено. Файли будуть збережені у: {script_directory}")
